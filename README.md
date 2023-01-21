@@ -19,14 +19,14 @@ Une fois le niveau de difficulté choisi, l'utilisateur doit rentrer son nom (un
 Les rendus des pages, particulièrement celui de la page d'accueil, sont réactifs et adaptés à trois formats d'écrans :
 
 #### Desktop
-![homepage](Quizz-World/img/screenshots/homepage.png)
+![homepage](img/screenshots/homepage.png)
 
 #### Medium
-![homepage_md](Quizz-World/img/screenshots/homepage_md.png)
+![homepage_md](img/screenshots/homepage_md.png)
 
 #### Small
-![homepage_sm](Quizz-World/img/screenshots/homepage_sm.png)
+![homepage_sm](img/screenshots/homepage_sm.png)
 
 ### Cheatcode
 Quelques informations utiles au développement de l'applications sont visibles dant la console du navigateur (menu F12 - Console), dont l'objet de la question en cours :
-![cheatcode](Quizz-World/img/screenshots/console.png)
+![cheatcode](img/screenshots/console.png)
