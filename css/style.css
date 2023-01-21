@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap%27');
+
+body {
+    background-color: #608ec4;
+}
+
+/* PAGE D'ACCUEIL */
+/* #region */
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+h2 {
+    color: white;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.card {
+    box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 0.644);
+    border: dashed black 1px;
+    background-color: #ff6d00;
+    color: white;
+    border-radius: 1rem;
+    margin: 0.9vw;
+    width: 23%;
+    font-family: 'Great Vibes', cursive;
+}
+
+.card h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+.card img {
+    border-radius: 1rem;
+    border: solid 1px #757473b4;
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+}
+
+.radio {
+    font-size: 1rem;
+    margin: 0.2rem 0 0.2rem;
+}
+/* #endregion */
+
+
+/* PAGE DE CONFIRMATION */
+/* #region */
+#confirm_img {
+    border-radius: 2rem;
+    border: solid white 1rem;
+}
+
+#username {
+    color: black;
+}
+/* #endregion */
+
+
+/* INTERFACE DU QUIZZ */
+/* #region */
+
+/* classe activée lorsqu'un élément est draggé */
+.dragging {
+    background-color: #ac5b19;
+}
+
+#question {
+    font-weight: bold;
+}
+
+/* classe des réponses proposées */
+.response {
+    padding: 1.5rem;
+    background-color: #e17722;
+    border: solid white 1px;
+    border-radius: 1rem;
+    font-weight: bold;
+    width: 20%;
+}
+
+/* sert à conserver les éléments à leur emplacement quand une question est déplacée */
+.empty {
+    width: 20%;
+}
+
+/* zone de drop */
+#choice {
+    display: inline-block;
+    padding-top: 3rem;
+    height: 8rem !important;
+    background-color: #e9e9e9;
+    border: dashed black 2px;
+}
+
+/* classe de la réponse valide */
+.valid {
+    background-color: #42d63d !important;
+}
+
+/* anecdote de la réponse */
+#anecdote {
+    opacity: 0;
+    background-color: #e17722;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0 1rem 0 1rem;
+    margin-top: 1rem;
+    width: fit-content;
+    margin: 1rem auto 0 auto;
+}
+
+/* formattage des boutons */
+#start,
+#next,
+#reset {
+    border-radius: 0;
+    border-color: #ca752f;
+    background-color: #e17722;
+    color: white;
+    width: fit-content;
+}
+/* #endregion */
+
+#score {
+    font-size: 2rem;
+    color: #ff6d00;
+}
+
+/* gestion de l'affichage au format mobile */
+@media screen and (max-width: 576px) {
+    .card {
+        width: 80%;
+        margin: 1rem auto 1rem auto;
+    }
+
+    #responses{
+        margin: 0.5rem !important;
+    }
+
+    .response {
+        width: 45%;
+        margin : 0.5rem;
+    }
+}
