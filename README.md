@@ -1,6 +1,3 @@
-﻿# Quizz World
-
-
 # Quizz World
 
 https://romaryl.github.io/Quizz-World/
