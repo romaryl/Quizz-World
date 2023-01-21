@@ -19,14 +19,14 @@ Une fois le niveau de difficulté choisi, l'utilisateur doit rentrer son nom (un
 Les rendus des pages, particulièrement celui de la page d'accueil, sont réactifs et adaptés à trois formats d'écrans :
 
 #### Desktop
-![homepage](./images/screenshots/homepage.png)
+![homepage](images/screenshots/homepage.png)
 
 #### Medium
-![homepage_md](./images/screenshots/homepage_md.png)
+![homepage_md](images/screenshots/homepage_md.png)
 
 #### Small
-![homepage_sm](./images/screenshots/homepage_sm.png)
+![homepage_sm](images/screenshots/homepage_sm.png)
 
 ### Cheatcode
 Quelques informations utiles au développement de l'applications sont visibles dant la console du navigateur (menu F12 - Console), dont l'objet de la question en cours :
-![cheatcode](./images/screenshots/console.png)
+![cheatcode](images/screenshots/console.png)
