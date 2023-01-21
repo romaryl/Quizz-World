@@ -8,10 +8,12 @@ https://romaryl.github.io/Quizz-World/
 Application monopage en HTML/CSS/Javascript/AJAX. L'utilisateur peut choisir trois niveaux de difficultés pour chaque quizz stocké dans le dossier /json/.
 Une fois le niveau de difficulté choisi, l'utilisateur doit rentrer son nom (uniquement au premier lancement de l'application) et répondre à une série de 10 questions avant de voir son score sur une page finale rebouclant sur la page d'accueil.
 
+
 ## Technologies
 * HTML5/CSS3
 * Bootstrap v5.0.2
 * Javascript ECMAScript 2022
+
 
 ## Captures d'écran
 
@@ -29,4 +31,5 @@ Les rendus des pages, particulièrement celui de la page d'accueil, sont réacti
 
 ### Cheatcode
 Quelques informations utiles au développement de l'applications sont visibles dant la console du navigateur (menu F12 - Console), dont l'objet de la question en cours :
+
 ![cheatcode](img/screenshots/console.png)
