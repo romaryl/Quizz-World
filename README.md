@@ -6,7 +6,7 @@ Application monopage en HTML/CSS/Javascript/AJAX. L'utilisateur peut choisir tro
 Une fois le niveau de difficulté choisi, l'utilisateur doit rentrer son nom (uniquement au premier lancement de l'application) et répondre à une série de 10 questions avant de voir son score sur une page finale rebouclant sur la page d'accueil.
 
 ## Contexte de développement
-Cette application web a été réalisée en tant qu'exercice dans ma formation Développeur Web et Web Mobile à l'AFPA de Brive-la-Gaillarde. Des captures d'écrans du rendu attendu étaient données ainsi que les ressources graphiques.
+Cette application web a été réalisée en tant qu'exercice dans ma formation Développeur Web et Web Mobile à l'AFPA de Brive-la-Gaillarde. Des captures d'écrans du rendu attendu étaient données ainsi que les ressources graphiques et les fichier .json contenant les questions des quizz.
 
 
 ## Technologies
